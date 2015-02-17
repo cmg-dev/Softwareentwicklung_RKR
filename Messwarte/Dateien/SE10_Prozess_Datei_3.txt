@@ -1,0 +1,7 @@
+SOFTWAREENTWICKLUNG SS2010 PROZESSDATEI
+Regelparameter KP KI KD
+10
+0,03
+2
+geregelter Modus 0=nein/1=ja ; Abtastanzahl ; x(t) ; qk ; TSoll
+1	; 15000	; 6	; 1,0	; 410,3

@@ -1,0 +1,12 @@
+SOFTWAREENTWICKLUNG SS2010 PARAMETERDATEI
+Alpha, Beta, S, TA , ma , T0, mges, Tk, Abtastzeit ,Integrationsschritte
+0,7
+0,01
+0,2
+3200
+100
+300
+1000
+370
+2
+100

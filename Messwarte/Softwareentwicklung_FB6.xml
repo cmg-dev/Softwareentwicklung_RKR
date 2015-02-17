@@ -1,0 +1,48 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Softwareentwicklung_FB6
+</name>
+</assembly>
+<members>
+<member name="P:SE2010.My.Resources.Resources.ResourceManager">
+	<summary>
+  Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+</summary>
+</member><member name="P:SE2010.My.Resources.Resources.Culture">
+	<summary>
+  Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+  Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+</summary>
+</member><member name="T:SE2010.My.Resources.Resources">
+	<summary>
+  Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+</summary>
+</member><member name="M:SE2010.simulation.derivs(System.Double,System.Double[],System.Double[])">
+	<summary>
+ Diese Funktion muss in Ihrer eigenen Klasse mittels "Protected Overrides Sub derivs(...)" überschrieben werden
+ </summary>
+	<param name="t">Stelle der aktuellen Funktionswerte</param>
+	<param name="y">Vektor der Funktonswerte</param>
+	<param name="dydx">Vektor der Differentialgleichungen, die Sie angeben müssen</param>
+	<remarks>Diese Sub wird von der Sub rk4 aufgerufen.</remarks>
+</member><member name="M:SE2010.simulation.rk4(System.Double[],System.Int32,System.Double,System.Double,System.Double[])">
+	<summary>Diese Prozedur wird für die Simulation benutzt.</summary>
+	<param name="y ">ist der Vektor der Länge n der Lösungsfunktionen des Differentialgleichungssystems bei x</param>
+	<param name="n ">ist Anzahl der Differentialgleichungen.</param>
+	<param name="x ">ist die aktuelle Stelle.</param>
+	<param name="h ">ist die Integrationsschrittweite.</param>
+	<param name="yout  ">ist der Vektor der Lösungsfunktionen des Differentialgleichungssystems bei x+h.</param>
+	<remarks>Benutzt die <c>Sub derivs</c>.</remarks>
+</member><member name="T:SE2010.simulation">
+	<summary>
+ Die Klasse 'simulation' (Stand: 2010-03-11) enthält die rk4-Sub mit der Sie die numerische Simulation durchführen müssen.
+ Anwendung innerhalb Ihrer eigenen Klasse mittels:
+ <value><code>Inherits SE2010.simulation</code></value>
+	</summary>
+	<remarks>Siehe auch rk4 und derivs, falls Sie diese nicht sehen -&gt; müssen Sie mit der rechten 
+ Maustaste im Fenster oberhalb 'geschützte Member anzeigen' mit anwählen.</remarks>
+</member>
+</members>
+</doc>
